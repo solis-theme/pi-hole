@@ -6,7 +6,7 @@
 <p align="center">A minimal black and blue color scheme inspired by space 🚀</p>
 
 > **Note** \
-> This theme is in development
+> This theme is in development and may not work correctly
 
 ## Usage
 
