@@ -5,6 +5,9 @@
 
 <p align="center">A minimal black and blue color scheme inspired by space 🚀</p>
 
+> **Note** \
+> This theme is in development
+
 ## Usage
 
 Currently, there are only two ways to install this theme:
