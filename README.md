@@ -25,6 +25,9 @@ SSH into the the Pi-hole machine and head on into the the `/var/www/html/admin/s
 
 <a href="https://raw.githubusercontent.com/lunar-theme/pi-hole/main/pi-hole.user.css"><img src="https://img.shields.io/badge/Install%20with-Stylus-%233281ea" alt="Install with Stylus"/></a>
 
+> **Warning** \
+> Your Pi-hole must be located at `pi.hole`, if it isn't the theme wont work and will need manual editing to line 13 to change the domain from `pi.hole` to whatever the address of your Pi-hole is. 
+
 ## Gallery
 
 Soon

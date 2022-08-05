@@ -10,6 +10,8 @@
 @license      GPL-3.0
 ==/UserStyle== */
 
+@-moz-document domain('pi.hole') {
+
 :root {
     --inner-core: #161616;
     --outer-core: #202020;
@@ -147,5 +149,5 @@ a:hover {
 
 .main-header .navbar, .main-header .logo, .main-sidebar {
 	background: var(--outer-core) !important;
+	}
 }
-
