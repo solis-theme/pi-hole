@@ -1,0 +1,151 @@
+/* ==UserStyle==
+@name         Lunar for Pi-hole
+@description  🛰️  A space-inspired theme for Pi-hole 
+@namespace    https://github.com/lunar-theme/pi-hole
+@homepageURL  https://github.com/lunar-theme/pi-hole
+@supportURL   https://github.com/lunar-theme/pi-hole/issues
+@updateURL    https://github.com/lunar-theme/pi-hole/raw/main/pi-hole.user.css
+@author       sheep <hi@sheepdev.xyz> (https://sheepdev.xyz/)
+@version      0.5.0
+@license      GPL-3.0
+==/UserStyle== */
+
+:root {
+    --inner-core: #161616;
+    --outer-core: #202020;
+    --mantle: #252525; 
+    --crust: #303030;
+    --inner-core-transparent: #161616f1;
+    --tropo: #3281ea;
+    --strato: #0284e8;
+    --meso: #02a3e8;
+    --thermo: #02bbe8;
+    --text: #f3f3f3;
+    --white: #d4d7db;
+    --aurora: #05844A;
+    --magma: #B10C0C;
+    --sunset: #bf5039;
+}
+
+.content {
+	background: var(--inner-core) !important;
+}
+
+.col-md-12, .nav-tabs-custom, .row, .nav-tabs-custom > .tab-content {
+	background: var(--outer-core) !important;
+	color: var(--text);
+	border-radius: 20px;
+}
+
+.content-wrapper {
+	background: var(--outer-core)
+}
+
+.nav-tabs-custom > .nav-tabs > li.active > a, .nav-tabs-custom > .nav-tabs > li.active:hover > a {
+	background: var(--outer-core);
+	color: var(--text);
+}
+
+.nav-tabs-custom > .nav-tabs > li > a {
+	color: var(--text);
+	opacity: 0.8;
+}
+
+.nav-tabs-custom > .nav-tabs > li.active {
+	border-top-color: var(--tropo);
+	color: var(--text);
+	opacity: 1 !important;
+}
+
+.box, .main-footer {
+	background: var(--outer-core);
+	border: none;
+}
+
+.progress {
+	background: var(--crust)
+}
+
+.progress-bar {
+	background: var(--tropo)
+}
+
+code {
+	background: var(--mantle);
+	color: var(--tropo);
+}
+
+.sidebar-toggle-svg:hover {
+	background: var(--tropo)
+}
+
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+	background: var(--outer-core)
+}
+
+.form-control, .pagination > li > a, .pagination > li > span, .pagination > .disabled > a, .pagination > .disabled > a:focus, .pagination > .disabled > a:hover, .pagination > .disabled > span, .pagination > .disabled > span:focus, .pagination > .disabled > span:hover {
+	background: var(--mantle);
+	color: var(--text);
+	border: none;
+}
+
+.pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover {
+	background: var(--crust);
+	color: var(--text);
+}
+
+.text-red {
+	color: var(--magma) !important;
+}
+
+.btn.btn-default.btn-sm.text-red {
+	background: var(--magma);
+	color: var(--text) !important;
+	border: none;
+	border-radius: 20px;
+}
+
+.btn.btn-default.btn-sm.text-green {
+	background: var(--aurora);
+	color: var(--text) !important;
+	border: none;
+	border-radius: 20px;
+}
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+	background: var(--tropo)
+}
+
+.box-header.with-border, .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td, .table-bordered {
+	border: none;
+}
+
+*, .box-header > .fa, .box-header > .glyphicon, .box-header > .ion, .box-header .box-title {
+	color: var(--text)
+}
+
+.user-panel > .info > span > svg > path {
+	color: var(--tropo)
+}
+
+.col-xs-12.col-sm-6 > strong > a > svg > path {
+	color: var(--magma)
+}
+
+#temperature > svg > path {
+	color: var(--sunset)
+}
+
+a {
+	color: var(--tropo)
+}
+
+a:hover {
+	color: var(--meso)
+}
+
+
+.main-header .navbar, .main-header .logo, .main-sidebar {
+	background: var(--outer-core) !important;
+}
+
