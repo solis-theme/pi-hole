@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "sheeepdev",
+      "name": "sheep",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68562536?v=4",
+      "profile": "http://sheepdev.xyz",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "pi-hole",
+  "projectOwner": "lunar-theme",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
