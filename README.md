@@ -35,10 +35,3 @@ SSH into the the Pi-hole machine and head on into the the `/var/www/html/admin/s
 
 Soon
 
-## Team
-
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/lunar-theme/template/graphs/contributors).
-
-[![sheep](https://avatars.githubusercontent.com/u/68562536?v=4)](https://github.com/sheeepdev) |
---- |
-[sheep](https://github.com/sheeepdev) |
